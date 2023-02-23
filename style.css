@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    padding: 25px 0 0 25px;
+    font-size: 20px;
+   font-weight: bold;
+}
+
+
+.img{
+    display: flex;
+    float: left;
+    width: 50%;
+   
+}
+img{
+    margin: 80px 0 0 150px;
+}
+.content{
+    width: 50%;
+    /* display: flex; */
+    float: right;   
+}
+.heading{
+    padding: 80px 100px 0 0;
+    text-align: left;
+    font-size: 70px;
+    font-weight: bolder;
+    word-spacing: 0.9cqb;
+    margin-bottom: 0;
+
+}
+.desc{
+    text-align: left;
+    font-size: 35px;
+    color: rgb(62, 57, 57);
+    word-spacing: 0.9cqb;
+    margin-top: 20px;
+}
+.btn{
+    background:  rgb(26, 24, 24);
+    color: white;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    /* margin-bottom: 500px; */
+    
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px 10px;
+    text-align: center;
+    color:  rgb(62, 57, 57);
+}
+
+.sec2{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 950px){
+    body{
+        background-color: white;
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    nav{
+        margin: 22px 150px 0 22px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .img{
+        display: block;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img{
+        width: 250px;
+        display: block;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        
+    }
+    .content{
+        width: 100vw; 
+    }
+    .heading{
+        display: block;
+        margin: 40px 150px 0 50px;
+        padding: 0 0 0 0;
+        text-align: left;
+        font-size: 30px;
+        font-weight: bolder;
+        word-spacing: 0.9cqb;
+    
+    }
+    .desc{
+        text-align: left;
+        font-size: 10px;
+        margin: 25px 150px 0 50px;
+        word-spacing: 0.9cQb;
+        color: rgb(62, 57, 57);
+    }
+    
+    .btn{
+        display: block;
+        background: rgb(27, 23, 23);
+        color: white;
+        width: 120px;
+        height: 40px;
+        margin: 40px 0 0 50px;
+        cursor: pointer;
+        margin-bottom: 50px;
+        
+        
+    }
+    #foott{
+       visibility: hidden;
+    }
+    .sec2{
+        visibility: visible;
+        display: block;
+        height: auto;
+        margin-top: 0;
+        
+    }
+    .sec2,.dd{
+        text-align: center;
+        padding: 50px 0 5px 0;
+    }
+
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 951px){
+    body{
+        background-color: white;
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    nav{
+        margin: 22px 150px 0 22px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .img{
+        display: block;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .content{
+        width: 100%; 
+    }
+    .heading{
+        display: block;
+        margin: 80px 150px 0 50px;
+        padding: 80px 0 0 0;
+        text-align: left;
+        font-size: 60px;
+        font-weight: bolder;
+        word-spacing: 0.9cqb;
+    
+    }
+    .desc{
+        text-align: left;
+        font-size: 25px;
+        margin: 35px 150px 0 50px;
+        word-spacing: 0.9cQb;
+        color: rgb(62, 57, 57);
+    }
+    
+    .btn{
+        display: block;
+        background: rgb(27, 23, 23);
+        color: white;
+        width: 200px;
+        height: 50px;
+        margin: 50px 0 0 50px;
+        cursor: pointer;
+        margin-bottom: 50px;
+        
+        
+    }
+    #foott{
+       visibility: hidden;
+    }
+    .sec2{
+        visibility: visible;
+        display: block;
+        height: auto;
+        margin-top: 0;
+        
+    }
+    .sec2,.dd{
+        text-align: center;
+        padding: 50px 0 0 0;
+    }
+
+}
